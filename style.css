@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+label,
+input {
+  margin: 5px;
+}
+
+.countdown {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
